@@ -34,9 +34,8 @@ p{
 }
 
 .card{
-  width: calc(90% / 3);
+  width: calc(100% / 3- 20px);
   background-color: black;
-  height: 100px;
   float: left;
   margin: 20px;
 }
@@ -44,13 +43,15 @@ p{
 .card img{
   float: left;
   height: 100px;
+  width: 100px;
   object-fit: cover;
 }
 
 .card .dida{
-  padding: 15px;
+  margin: 15px;
   color: white;
   float: left;
+
 }
 
 .card h3{
