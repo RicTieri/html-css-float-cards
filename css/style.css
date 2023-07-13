@@ -34,7 +34,6 @@ p{
 }
 
 .card{
-
   width: calc(100% / 3 );
   background-color: black;
   height: 100px;
@@ -52,7 +51,6 @@ p{
   padding: 15px;
   color: white;
   float: left;
-  height: 100%;
 }
 
 .card h3{
