@@ -9,9 +9,57 @@ header{
   padding-top: 40px;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 h1{
   color: #e53170;
   text-transform: capitalize;
   font-weight: bolder;
   text-align: center;
+}
+
+p{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container{
+  padding-top: 40px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card{
+
+  width: calc(100% / 3 );
+  background-color: black;
+  height: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.card img{
+  float: left;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card .dida{
+  padding: 15px;
+  color: white;
+  float: left;
+  height: 100%;
+}
+
+.card h3{
+  text-transform: uppercase;
+}
+
+.mail{
+  display: block;
+  color: #00c0f3;
 }
