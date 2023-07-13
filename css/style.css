@@ -34,11 +34,11 @@ p{
 }
 
 .card{
-  width: calc(100% / 3 );
+  width: calc(90% / 3);
   background-color: black;
   height: 100px;
   float: left;
-  margin: 10px;
+  margin: 20px;
 }
 
 .card img{
