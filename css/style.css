@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+header{
+  padding-top: 40px;
+}
+
+h1{
+  color: #e53170;
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-align: center;
+}
