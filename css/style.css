@@ -7,6 +7,7 @@
 
 header{
   padding-top: 40px;
+  font-weight: 700;
 }
 
 .clearfix::after{
@@ -27,6 +28,7 @@ p{
   padding-bottom: 20px;
 }
 
+
 .container{
   padding-top: 40px;
   width: 70%;
@@ -34,10 +36,14 @@ p{
 }
 
 .card{
-  width: calc(100% / 3- 20px);
-  background-color: black;
+
   float: left;
-  margin: 20px;
+  width: calc(100% / 3)
+}
+
+.col{
+  margin: 20px 20px;
+  background-color: black;
 }
 
 .card img{
@@ -48,9 +54,13 @@ p{
 }
 
 .card .dida{
-  margin: 15px;
+  padding: 10px;
   color: white;
   float: left;
+}
+
+.card h3, span{
+  padding: 5px;
 }
 
 .card h3{
